@@ -11,7 +11,7 @@ v1.0
 
 
 |  Asset |  Casing | Example  |
-|---|---|---|---|---|
+|---|---|---|
 | System Name  |  train-case | gcloud-bigquery  |
 |  Collection Name |  snake_case |  dropbox_resources |
 |  Collection Column Name | snake_case  | user_id  |

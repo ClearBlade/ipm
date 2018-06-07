@@ -49,7 +49,7 @@ npm i -g jsdoc2md
 
 1. On Github, create a new repo
 2. `cb-cli export` your system to your filesystem
-3. curl https://docs.clearblade.com/v/3/static/ipm/package.json
+3. curl -O https://docs.clearblade.com/v/3/static/ipm/package.json
 4. edit package.json with name, version, owner, tags, image url
 5. (optional) jsdoc2md ./code/*/*/*.js > jsdoc.md && cat jsdoc >> Readme.md
 4. git init

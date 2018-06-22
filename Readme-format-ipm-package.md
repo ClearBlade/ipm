@@ -26,10 +26,8 @@ _If assets will be modified by the end user (Example, changing triggers), it is 
 ## API
 
 _Recommend using JSDoc for documenting your JavaScript code, and using jsdoc2md npm tool (https://www.npmjs.com/package/jsdoc-to-markdown) to generate markdown_
-`npm install -g jsdoc-to-markdown
-jsdoc2md code/*/*/*.js >> Readme.md`
 
-## References
-_If any references used_
-
-
+```
+npm install -g jsdoc-to-markdown
+jsdoc2md code/*/*/*.js >> Readme.md
+```

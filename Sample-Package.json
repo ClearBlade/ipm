@@ -1,0 +1,51 @@
+{
+    "author":  "Rob Reinold <rob@clearblade.com>",
+    "clouds": [],
+    "description": "Communication API for SMS",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://www.itsalllost.com/wp-content/uploads/2017/04/twilio-logo-red.png",
+    "asset_types":["Code Libraries"],
+    "keywords": [
+        "clearblade",
+        "alerting",
+        "iot",
+        "platform",
+        "sms",
+        "mobile",
+        "notification",
+        "alert",
+        "alerts",
+        "phone",
+        "telephone",
+        "cell",
+        "cellular",
+        "verification",
+        "twilio"
+    ],
+    "license": "MIT",
+    "name": "twilio-sms-library",
+    "private": false,
+    "prog_lang": ["javascript"],
+    "protocols": [],
+    "things": [],
+    "version": "1.2.0",
+    "dependencies": {
+        "some_clearblade_lib":"latest",
+        "http": "latest"
+    },
+    "scripts": {
+        "jsdoc": "jsdoc2md code/libraries/*/*.js --heading-depth=3 > jsdoc.md"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rreinold/twilio-sms-library.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rreinold/twilio-sms-library/issues"
+    },
+    "homepage": "https://github.com/rreinold/twilio-sms-library#readme",
+    "devDependencies": {
+        "jsdoc-to-markdown": "^4.0.1"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "author":  "",
+    "clouds": [],
+    "description": "",
+    "domains": [],
+    "gateways": [],
+    "image_url": "",
+    "asset_types":[],
+    "keywords": [
+
+    ],
+    "license": "",
+    "name": "",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "",
+    "dependencies": {
+      
+    },
+    "scripts": {
+       
+    },
+    "repository": {
+       
+    },
+    "bugs": {
+       
+    },
+    "homepage":"",
+    "devDependencies": {
+       
+    }
+}

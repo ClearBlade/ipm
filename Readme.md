@@ -55,15 +55,16 @@ And these shared systems are opensource, because __Sharing is Caring !__
 
 ### 2. Update an IPM Package via CLI
 
-####Prerequisites
+#### Prerequisites
 
-#####Required
+##### Required
 
-git   
-cb-cli > 4.0    [cb-cli releases](https://github.com/clearblade/cb-cli/releases)
+>git   
+>cb-cli > 4.0    [cb-cli releases](https://github.com/clearblade/cb-cli/releases)
 
-##### Optional Helper tool for documenting library using jsdoc.
-jsdoc2md  
+##### Optional 
+Helper tool for documenting library using jsdoc.
+>jsdoc2md  
 
 ```
 npm i --save-dev jsdoc2md
@@ -93,9 +94,9 @@ npm i --save-dev jsdoc2md
 * (optional) `jsdoc2md ./code/*/*/*.js > jsdoc.md && cat jsdoc >> Readme.md`
 * List of required files: 
 
-		1. system.json
-		2. package.json
-		3. .gitignore 
+>1. system.json
+>2. package.json
+>3. .gitignore 
 		
 * git init
 * Add ".cbmeta" & "jsdoc.md to `.gitignore`

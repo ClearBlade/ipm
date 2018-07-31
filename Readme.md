@@ -3,7 +3,7 @@
  
 ## Brief intro to ClearBlade Platform
 
-When a developer ready to begin using the ClearBlade Platform the first element that must be created is a System.
+When a developer is ready to begin using the ClearBlade Platform the first element that must be created is a System.
 
 This System represents a backend for the mobile app(s), web dashboard, fat clients or IoT networks that need a common system of record. The System contains
 
@@ -14,20 +14,21 @@ This System represents a backend for the mobile app(s), web dashboard, fat clien
 * a role based authority model for users and devices
 * a bunch of assets which user can work with. Ex: Code Services, Code Libraries, Adapters, Portals etc. 
 
-Within the Code section of a System you can device two types of Code that ultimately make up the application layer of your System
+Within the Code section of a System you can create two types of Code that ultimately make up the application layer of your System
 
-Services are available externally and called by clients via HTTP or MQTT
-Libraries are lines of javascript that can be included into services to provide reusable logic
+- `Code Services` are microservices that are invoked by API calls, MQTT messages, timers, and triggers
+
+- `Code Libraries` are reusable JavaScript libraries that are imported by Services
     
-   __Note__: _The code in javascript for code services and libraries needs to be in es5 strictly. So it's a good idea to test it on ClearBlade platform's code-service by importing it._ 
+   __Note__: _Our code engine is ES5 compliant. ES6 JavaScript code must be transpiled._
 
 ## What is IPM?
-IPM is IoT Package manager, which allows developers to share their complete IoT solutions or templates. All the assets can be shared. The assets which have the potential to be highly re-usable are services, libraries, adapters & portals. But again all the assets can be shared. 
+IPM is IoT Package manager, which allows developers to share their complete IoT solutions, templates and reusable assets. The most commonly shared assets are services, libraries, adapters & portals.
 
 ## The need for IPM
 
 As in the world of IoT, there is a lot of scope reusability of the code you write. ClearBlade provides a way to the user to share his/her system with all it's assets and use somebody else's system in their system, by importing it. 
-And these shared systems are opensource, because __Sharing is Caring !__
+And these shared systems are opensource, and allow distributed collaboration.
 
 
 ## Creating/Updating IPM package
@@ -40,10 +41,14 @@ And these shared systems are opensource, because __Sharing is Caring !__
 
 * Create a new system
 ![system-create](system-create.png)
+> If you're creating an HTTP integration, we recommend creating a reusable Code Library ( see [Example](https://platform.clearblade.com/portal/?systemKey=AAAAAAAAAAAAAAAAAAAAAJ55Gat-2m1A4tBaDIkip1xGMgStbd803vkm9Czquw==&systemSecret=AAAAAAAAAAAAAAAAAAAAAF5AzcvPIP5pafDqgFXa9fZvMWiKiB8aZcfMRnU=&name=CommonsPortal&allowAnon=true#/Home?packageName=harperdb-connector))
+> If you're creating an Adapter for IoT Wireless Protocols, such as ZigBee, Thread, we recommend creating an Adapter. See [docs](https://docs.clearblade.com/v/3/1-platform_concepts/Adapters/)
+> If you're creating a full IoT solution template, make use of Code Services, Triggers, and Portals to visualize your solution (See [Example](https://platform.clearblade.com/portal/?systemKey=AAAAAAAAAAAAAAAAAAAAAJ55Gat-2m1A4tBaDIkip1xGMgStbd803vkm9Czquw==&systemSecret=AAAAAAAAAAAAAAAAAAAAAF5AzcvPIP5pafDqgFXa9fZvMWiKiB8aZcfMRnU=&name=CommonsPortal&allowAnon=true#/Home?packageName=pump-demo))
 * Create Code Libraries
 ![library-create](library-create.png)
 * Write Code Library
 ![library-code](library-code.png)
+* Create code libraries
 * Test them by importing them into code services.
 * Once it looks like the system is ready (more features can be added refer [Update an IPM Package](#Update-an-IPM-Package-via-CLI) )  
 * Go to Home Page

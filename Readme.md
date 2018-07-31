@@ -39,7 +39,11 @@ And these shared systems are opensource, because __Sharing is Caring !__
 ##### Once the account is created, follow these steps:
 
 * Create a new system
-* Create code libraries
+![system-create](system-create.png)
+* Create Code Libraries
+![library-create](library-create.png)
+* Write Code Library
+![library-code](library-code.png)
 * Test them by importing them into code services.
 * Once it looks like the system is ready (more features can be added refer [Update an IPM Package](#Update-an-IPM-Package-via-CLI) )  
 * Go to Home Page

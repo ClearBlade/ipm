@@ -39,11 +39,17 @@ And these shared systems are opensource, and allow distributed collaboration.
 
 ##### Once the account is created, follow these steps:
 
+
 * Create a new system
 ![system-create](system-create.png)
+
 > If you're creating an HTTP integration, we recommend creating a reusable Code Library ( see [Example](https://platform.clearblade.com/portal/?systemKey=AAAAAAAAAAAAAAAAAAAAAJ55Gat-2m1A4tBaDIkip1xGMgStbd803vkm9Czquw==&systemSecret=AAAAAAAAAAAAAAAAAAAAAF5AzcvPIP5pafDqgFXa9fZvMWiKiB8aZcfMRnU=&name=CommonsPortal&allowAnon=true#/Home?packageName=harperdb-connector))
+
 > If you're creating an Adapter for IoT Wireless Protocols, such as ZigBee, Thread, we recommend creating an Adapter. See [docs](https://docs.clearblade.com/v/3/1-platform_concepts/Adapters/)
+
 > If you're creating a full IoT solution template, make use of Code Services, Triggers, and Portals to visualize your solution (See [Example](https://platform.clearblade.com/portal/?systemKey=AAAAAAAAAAAAAAAAAAAAAJ55Gat-2m1A4tBaDIkip1xGMgStbd803vkm9Czquw==&systemSecret=AAAAAAAAAAAAAAAAAAAAAF5AzcvPIP5pafDqgFXa9fZvMWiKiB8aZcfMRnU=&name=CommonsPortal&allowAnon=true#/Home?packageName=pump-demo))
+
+
 * Create Code Libraries
 ![library-create](library-create.png)
 * Write Code Library

@@ -17,6 +17,26 @@ Follow these practices in order to have clean, working and scalable code on Clea
     ```
 * Avoid using globals, instead prefer using local variables in a function(). This simplifies coding when using complex systems where multiple libraries are being imported. 
 
+* If adding debugging logic, use a debug object with this format to minimize impact on production code:
+
+```
+var DEBUG = {
+    enabled:false,
+    payload:{
+    "param1": "key1",
+    ...
+    "paramn": "keyn
+  }
+}
+function submitBodyMeasurement(req, resp){
+    log(req)
+    if(DEBUG.enabled){
+        req.params = DEBUG.payload
+    }
+    ...
+}
+```
+
 * Prefer using constants instead of using 'strings' directly.
 Option 1: Declare Constant at the beginning of the service.
 ```javascript

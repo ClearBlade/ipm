@@ -25,7 +25,7 @@ var DEBUG = {
     payload:{
     "param1": "key1",
     ...
-    "paramn": "keyn
+    "paramn": "keyn"
   }
 }
 function submitBodyMeasurement(req, resp){

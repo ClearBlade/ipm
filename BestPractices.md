@@ -15,9 +15,9 @@ v1.0
 | System Name  |  train-case | gcloud-bigquery  |
 |  Collection Name |  snake_case |  dropbox_resources |
 |  Collection Column Name | snake_case  | user_id  |
-|  Code Service Name | PascalCase  |  FetchMyPosition |
-|  Code Library Name |  PascalCase |  GPSLibrary |
-| Edge,Trigger,Timer,Device,Portal,Else  |  PascalCase |  GPSDevice|
+|  Code Service Name | camelCase  |  FetchMyPosition |
+|  Code Library Name |  camelCase |  GPSLibrary |
+| Edge,Trigger,Timer,Device,Portal,Else  |  camelCase |  GPSDevice|
 |  Code Service Params |  snake_case or camelCase | user_id, userID
 |  Code Service variables | camelCase  |  userID |
 
